@@ -7,7 +7,7 @@ export default async function Home() {
         {/* Header */}
         <div className="flex flex-col items-center justify-center space-y-8 text-center">
           <div className="max-w-2xl">
-            <h1 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+            <h1 className="text-3xl font-bold tracking-tight text-teal-300 sm:text-4xl">
               Multimodal Video Analysis
             </h1>
             <p className="mt-4 text-lg text-zinc-400">
@@ -29,7 +29,7 @@ export default async function Home() {
           {/* Features */}
           <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             <div className="rounded-lg border border-white/[0.1] px-5 py-4 bg-white/[0.02]">
-              <h3 className="text-lg font-semibold text-white mb-2">
+              <h3 className="text-lg font-semibold text-teal-300 mb-2">
                 🎥 Video Analysis
               </h3>
               <p className="text-sm text-zinc-400">
@@ -39,7 +39,7 @@ export default async function Home() {
             </div>
 
             <div className="rounded-lg border border-white/[0.1] px-5 py-4 bg-white/[0.02]">
-              <h3 className="text-lg font-semibold text-white mb-2">
+              <h3 className="text-lg font-semibold text-teal-300 mb-2">
                 📝 Transcription
               </h3>
               <p className="text-sm text-zinc-400">
@@ -48,7 +48,7 @@ export default async function Home() {
             </div>
 
             <div className="rounded-lg border border-white/[0.1] px-5 py-4 bg-white/[0.02] sm:col-span-2 lg:col-span-1">
-              <h3 className="text-lg font-semibold text-white mb-2">
+              <h3 className="text-lg font-semibold text-teal-300 mb-2">
                 🤖 AI Insights
               </h3>
               <p className="text-sm text-zinc-400">
