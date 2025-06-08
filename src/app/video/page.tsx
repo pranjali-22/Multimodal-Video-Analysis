@@ -324,7 +324,7 @@ export default function Page() {
                         <input
                             value={visualQuery}
                             onChange={(e) => setVisualQuery(e.target.value)}
-                            placeholder="e.g. pie chart, face, map..."
+                            placeholder="e.g. park, tree, person..."
                             className="flex-1 px-4 py-2 rounded-xl bg-zinc-800 text-white border border-zinc-700 focus:ring-2 focus:ring-teal-500 shadow-inner"
                         />
                         <button
@@ -355,7 +355,7 @@ export default function Page() {
                             ))}
                           </div>
                       ) : (
-                          <p className="text-zinc-500 italic">No results yet.</p>
+                          <p className="text-zinc-500 italic"></p>
                       )}
                     </div>
                 )}
