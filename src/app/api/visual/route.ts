@@ -3,9 +3,7 @@ import {GoogleGenerativeAI} from "@google/generative-ai";
 
 export async function POST(request: NextRequest) {
     try {
-        const GEMINI_API_KEY = "AIzaSyBJTmn74fpS0AvXndtvUZnNU63ZopuLmK8";
-
-        const body = await request.json();
+       const body = await request.json();
 
         const videoUrl = body.videoUrl;
         const question = body.query
